@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bbin Server</title>
+    <link rel="icon" href="assets/icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Minecraft&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Logo -->
+    <div class="logo-container">
+        <img src="assets/logo.png" alt="Server Logo" class="server-logo">
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <a href="http://bbin.ddns.net:5000" class="nav-button">🗺️ Map</a>
+        <a href="/tlauncher" class="nav-button">⬇️ TLauncher</a>
+        <a href="pages/guide.html" class="nav-button">📖 Command</a>
+        <a href="pages/leaderboard.html" class="nav-button">🏆 Leaderboard</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="server-info-container">
+        <h1 class="server-title">Bbin Server</h1>
+        
+        <div class="server-details-card">
+            <div class="ip-port-section">
+                <div class="ip-address" id="ipAddress">
+                    <span class="value glow-text">BBIN.DDNS.NET</span>
+                </div>
+                <div class="port-list">
+                    <div class="port-item">
+                        <span class="label">PC:</span>
+                        <span class="value">25565</span>
+                    </div>
+                    <div class="port-item">
+                        <span class="label">PE:</span>
+                        <span class="value">19132</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copy-notification" id="copyNotification">Đã copy IP!</div>
+
+            <div class="player-status">
+                <div class="status-indicator" id="statusIndicator"></div>
+                <span class="player-count" id="playerCount">0 đang online</span>
+            </div>
+        </div>
+    </main>
+
+    <!-- Social Links -->
+    <footer class="social-links">
+        <a href="#" class="social-button">📘</a>
+        <a href="#" class="social-button">🎮</a>
+        <a href="#" class="social-button">📸</a>
+        <a href="#" class="social-button">🎵</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

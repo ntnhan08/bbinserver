@@ -1,0 +1,10 @@
+📁 minecraft-web/
+├── 📄 index.html
+├── 📄 style.css
+├──📄 script.js
+└── 📁 assets/
+    ├── 📄 background.jpg
+    ├── 📄 logo.png
+└── 📁plugins
+└── 📁page
+    ├── 📄guilde.html
